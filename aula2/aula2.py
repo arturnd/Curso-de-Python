@@ -9,3 +9,7 @@ print(canal)
 print(carro)
 print(canal+"-"+curso)
 print(num)
+if 10 > 2: 
+    print("Maior")
+    print("Aula 2")
+print("FIM")
