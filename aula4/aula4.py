@@ -22,5 +22,6 @@ x={
 }; print(type(x)) #dict
 print("Valores",x["terrestre"],x['maritimo'],x['aereo'])
 x={5,7,8,6,4,5,7,2,1,1,3,3,6,8,5};print(type(x)) #set
-print((x))
+print(x)
 x=frozenset({5,7,8,6,4,5,7,2,1,1,3,3,6,8,5});print(type(x)) #bloqueia o set
+print(x)
