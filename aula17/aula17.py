@@ -27,7 +27,7 @@ for x in carro:
        print('\n',x) # mostra chave
        print(carro[x]) #mostra valores
 
-for c,v in carro.items():
+for c,v in carro.items(): #c é chave e v é value, ambos são atribuidos
        print('\n',c+':'+v)
 
 carro.clear() # limpa o directiony
